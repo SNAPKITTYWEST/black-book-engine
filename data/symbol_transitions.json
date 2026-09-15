@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "description": "Symbol transition function F: N × X → 2^N",
+  "spdx": "GPL-3.0-or-later",
+  "copyright": "2026 SnapKittyWest / Ahmad Ali Parr / Bel Esprit D'Accord Irrevocable Trust",
+  "clone_gate": "Any clone, fork, or derivative MUST be released under GPL-3.0-or-later",
+  "status": "RESEARCH_IN_PROGRESS",
+  "determinism_status": "UNKNOWN — to be determined empirically",
+  "transitions": [],
+  "transformation_rules": [],
+  "notes": "Transitions list empty pending primary source extraction. Determinism status (whether F is a function or relation) is a key research question — see NB-N017 in novelty_ledger.md."
+}

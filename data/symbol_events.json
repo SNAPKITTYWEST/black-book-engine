@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "description": "Temporal symbol events — appearances, disappearances, transformations",
+  "spdx": "GPL-3.0-or-later",
+  "copyright": "2026 SnapKittyWest / Ahmad Ali Parr / Bel Esprit D'Accord Irrevocable Trust",
+  "clone_gate": "Any clone, fork, or derivative MUST be released under GPL-3.0-or-later",
+  "status": "RESEARCH_IN_PROGRESS",
+  "event_types": [
+    "APPEARANCE", "DISAPPEARANCE", "TRANSFORMATION", "INTERRUPTION",
+    "REAPPEARANCE", "SUPPRESSION", "RESOLUTION", "COLLISION",
+    "CONJUNCTION", "FRAGMENTATION", "CHAPTER_BOUNDARY", "NOTEBOOK_BOUNDARY"
+  ],
+  "events": [],
+  "terminal_event": {
+    "event_type": "INTERRUPTION",
+    "subtype": "I_TERMINAL",
+    "SID": "SYM-TU",
+    "time": "LN_EPILOGUE_FINAL",
+    "description": "Terminal unresolved sequence — Liber Novus Epilogue breaks mid-sentence",
+    "source_fact": true,
+    "confidence": "HIGH",
+    "verified_by": "Shamdasani, S. (ed.) Liber Novus; Library of Congress documentation"
+  },
+  "notes": "Events list is empty pending primary source extraction. The terminal event is pre-populated as the only HIGH confidence event."
+}

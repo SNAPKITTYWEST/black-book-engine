@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "description": "BLACK_BOOK_SYMBOL_GRAPH: nodes N, edges E, edge labels L",
+  "spdx": "GPL-3.0-or-later",
+  "copyright": "2026 SnapKittyWest / Ahmad Ali Parr / Bel Esprit D'Accord Irrevocable Trust",
+  "clone_gate": "Any clone, fork, or derivative MUST be released under GPL-3.0-or-later",
+  "status": "RESEARCH_IN_PROGRESS",
+  "edge_label_set": [
+    "PRECEDES", "FOLLOWS", "CONTAINS", "TRANSFORMS", "OPPOSES",
+    "MERGES", "SEPARATES", "REPEATS", "DISAPPEARS", "REAPPEARS",
+    "INTERRUPTS", "RESOLVES", "FAILS_TO_RESOLVE"
+  ],
+  "node_type_set": [
+    "N_SYMBOL", "N_FIGURE", "N_OBJECT", "N_PLACE", "N_ACTION",
+    "N_COLOR", "N_NUMBER", "N_FORM", "N_ANIMAL", "N_ELEMENT",
+    "N_TEXT", "N_DREAM", "N_VISION", "N_TEMPORAL"
+  ],
+  "nodes": [],
+  "edges": [],
+  "interruption_set": ["SYM-TU"],
+  "notes": "Graph is empty pending primary source extraction. Structure defined by formal model S = (N, E, T, R, I)."
+}
